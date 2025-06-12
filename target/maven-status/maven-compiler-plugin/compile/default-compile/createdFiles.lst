@@ -1,5 +1,6 @@
 com\sentinera\event\model\result\WalletSummary.class
 com\sentinera\event\model\result\Group.class
 com\sentinera\event\model\result\Wallets.class
+com\sentinera\event\model\result\alert\AlertNotification.class
 com\sentinera\event\model\result\Total.class
 com\sentinera\event\model\result\WalletDistribution.class

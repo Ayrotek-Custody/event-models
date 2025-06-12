@@ -1,12 +1,25 @@
 package com.sentinera.event.model.result;
 
 import java.math.BigDecimal;
-
+//Percentage
 public class Total {
     private BigDecimal totalHotBalance;
+    private BigDecimal totalHotBalancePercentage;
     private BigDecimal totalWarmBalance;
+    private BigDecimal totalWarmBalancePercentage;
     private BigDecimal totalColdBalance;
+    private BigDecimal totalColdBalancePercentage;
     private BigDecimal totalOverallBalance;
+
+    public Total(BigDecimal totalHotBalance, BigDecimal totalHotBalancePercentage, BigDecimal totalWarmBalance, BigDecimal totalWarmBalancePercentage, BigDecimal totalColdBalance, BigDecimal totalColdBalancePercentage, BigDecimal totalOverallBalance) {
+        this.totalHotBalance = totalHotBalance;
+        this.totalHotBalancePercentage = totalHotBalancePercentage;
+        this.totalWarmBalance = totalWarmBalance;
+        this.totalWarmBalancePercentage = totalWarmBalancePercentage;
+        this.totalColdBalance = totalColdBalance;
+        this.totalColdBalancePercentage = totalColdBalancePercentage;
+        this.totalOverallBalance = totalOverallBalance;
+    }
 
     public Total(BigDecimal totalHotBalance, BigDecimal totalWarmBalance, BigDecimal totalColdBalance, BigDecimal totalOverallBalance) {
         this.totalHotBalance = totalHotBalance;
