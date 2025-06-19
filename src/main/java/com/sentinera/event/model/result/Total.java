@@ -11,6 +11,18 @@ public class Total {
     private BigDecimal totalColdBalancePercentage;
     private BigDecimal totalOverallBalance;
 
+    public BigDecimal getTotalHotBalancePercentage() {
+        return totalHotBalancePercentage;
+    }
+
+    public BigDecimal getTotalWarmBalancePercentage() {
+        return totalWarmBalancePercentage;
+    }
+
+    public BigDecimal getTotalColdBalancePercentage() {
+        return totalColdBalancePercentage;
+    }
+
     public Total(BigDecimal totalHotBalance, BigDecimal totalHotBalancePercentage, BigDecimal totalWarmBalance, BigDecimal totalWarmBalancePercentage, BigDecimal totalColdBalance, BigDecimal totalColdBalancePercentage, BigDecimal totalOverallBalance) {
         this.totalHotBalance = totalHotBalance;
         this.totalHotBalancePercentage = totalHotBalancePercentage;
