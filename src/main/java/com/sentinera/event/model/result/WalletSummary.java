@@ -29,4 +29,5 @@ public class WalletSummary {
     public void setTotals(Total totals) {
         this.totals = totals;
     }
+
 }
