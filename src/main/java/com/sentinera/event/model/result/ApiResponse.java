@@ -1,4 +1,4 @@
-package com.aegisight.apiintegration.model;
+package com.sentinera.event.model.result;
 
 public record ApiResponse<T>(
         int status,

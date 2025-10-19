@@ -1,6 +1,7 @@
 package com.sentinera.event.model.result;
 
-import com.aegisight.apiintegration.model.response.WalletsResolvedAndByTypeFiltered;
+
+import com.sentinera.event.model.result.response.WalletsResolvedAndByTypeFiltered;
 
 import java.util.UUID;
 
